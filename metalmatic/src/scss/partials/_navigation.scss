@@ -1,0 +1,36 @@
+
+.metalmatic-main-menu {
+    ul {
+        display: flex;
+        justify-content: flex-end;
+        align-content: center;
+        font-family: $title;
+       
+        
+
+        li {
+            padding-left: 2rem;
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: $weightnav;
+        }
+
+
+        a {
+            text-decoration: none;
+            color:$secondary !important;
+        }
+        
+    }
+
+}
+
+.metalmatic-service-menu, .metalmatic-diensten-menu {
+  a {
+    font-family: $title;
+    font-size: $textdesktop;
+    font-weight: 300;
+  }
+}
+
+  

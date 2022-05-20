@@ -1,0 +1,79 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $title;
+    font-weight: 800 !important;
+}
+
+p {
+    font-family: $text;
+}
+
+
+:root {
+    font-size: 62.5%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.txt_img img {
+    max-width: 398px;
+    
+}
+
+
+.rechts {
+    flex-direction: row-reverse;
+    
+}
+
+.container {
+    max-width: 1150px !important;
+    padding:0 2rem;
+}
+
+ol, ul, dl {
+    margin-top: 0 !important;
+    margin-bottom: 0rem !important;
+    padding-left: 0em !important;
+}
+
+.image {
+    box-shadow: 0 0 1rem rgb(0 0 0 / 20%);
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 3, 36, 0.561);
+    transition: .5s ease;
+    opacity: 0;
+}
+
+ .overlay:hover{
+opacity: 1;
+}
+
+.gallerytitle {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    color:$secondary;
+    padding: 2rem;
+}

@@ -1,0 +1,44 @@
+h1 {
+    font-size: $titledesktop;
+    margin-bottom: 3rem;
+}
+
+p {
+    font-size: $textdesktop;
+}
+
+.contact_banner {
+    margin: 13rem 0;
+    color: $secondary;
+
+
+ img {
+    clip-path: polygon(0 0, 100% 0, 53% 100%, 0% 100%);
+ }
+
+}
+.hero {
+    padding: 50px 0;
+
+    .heroimg {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 26% 100%);
+    
+    }
+
+    h1 {
+        margin-bottom: 3rem;
+    }
+}
+
+.txt_img {
+    padding-bottom: 100px;
+    padding-top:100px;
+
+    h2 {
+        margin-bottom: 3rem;
+    }
+}
+
+.grijs {
+    background-color: #F8F8F8;
+}

@@ -1,0 +1,16 @@
+/*
+Theme Name: Metalmatic_v2
+Theme URL: https://metalmatic.be
+Description: Metalmatic v2 Thema
+Author: Yungo (Andy Gielis)
+Author URL: https:/yungo.be/
+Template: twentyseventeen 
+Version: 1.0.0
+Text Domain: twentyseventeen-child
+License: GNU General Public License or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+*/ 
+/* Custom CSS goes after this line */
+
+@import "build/css/main.css";

@@ -1,0 +1,58 @@
+.mmfooter {
+  background-color: $primary;
+  padding-top:8rem;
+  color: $secondary !important;
+  
+  a {
+    color: $secondary !important;
+    text-decoration: none;
+  }
+  p {
+    font-family: $title !important;
+  }
+  
+h3 {
+font-size: $textdesktop;
+margin-bottom: 2rem;
+}
+  
+  .copyright {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid $secondary;
+    padding-top:3rem;
+    padding-bottom: 5rem;
+
+    a {
+      text-decoration: none;
+      font-weight: $weightnav;
+
+    }
+  }
+
+
+
+  .contactgegevens {
+      padding-bottom: 5rem;
+  }
+
+  .address {
+    font-family: $title;
+  }
+
+  .adresgegevens {
+    
+
+  a {
+      font-family: $title !important;
+      font-size: $textdesktop;
+  }
+  }
+
+  .socials {
+    i {
+      font-size: 2rem;
+      padding-right: 1rem;
+    }
+  }
+}

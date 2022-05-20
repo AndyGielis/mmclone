@@ -1,0 +1,43 @@
+.primary_button {
+        background-color: $primary;
+        padding: 10px 20px 10px 20px;
+        color: $secondary;
+        text-decoration: none;
+        transform: skew(-30deg);
+        display: inline-block;
+
+        span {
+            transform: skew(30deg);
+            display: inline-block;
+            font-family: $text;
+            font-size: 16px;
+        }
+
+        &:hover {
+            background-color: transparent;
+            color: $primary;
+            border: 1px solid $primary;
+        }
+    }
+
+    .secondary_button {
+            background-color: transparent;
+            padding: 10px 20px 10px 20px;
+            color: $secondary;
+            text-decoration: none;
+            transform: skew(-30deg);
+            display: inline-block;
+            border: 1px solid $secondary;
+    
+            span {
+                transform: skew(30deg);
+                display: inline-block;
+                font-family: $text;
+                font-size: 16px;
+            }
+    
+            &:hover {
+                background-color: $secondary;
+            }
+        }
+    
